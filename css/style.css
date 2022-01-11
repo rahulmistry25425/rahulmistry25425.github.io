@@ -3222,6 +3222,7 @@ h6 {
 .feature_item i {
   margin-bottom: 35px;
   display: block;
+  text-align: center;
 }
 .feature_item i:before {
   margin-left: 0px;
@@ -3504,12 +3505,21 @@ h6 {
   color: #ffc000;
 }
 
-
 .testi_item .img-fluid {
   margin-bottom: 30px;
 }
 .testi_item .img-logo {
   margin-bottom: 20px;
+}
+.testi_item .company {
+  display: flex;
+  align-items: center;
+}
+.ominfosolutions {
+  color: #0069d2;
+}
+.testi_item .company img {
+  width: 60px !important;
 }
 
 /* End Testimonials Area css
